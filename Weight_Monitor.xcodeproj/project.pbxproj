@@ -16,8 +16,22 @@
 		B98EC2DE16849DE0001CDD3E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B98EC2DD16849DE0001CDD3E /* Default.png */; };
 		B98EC2E016849DE0001CDD3E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B98EC2DF16849DE0001CDD3E /* Default@2x.png */; };
 		B98EC2E216849DE0001CDD3E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B98EC2E116849DE0001CDD3E /* Default-568h@2x.png */; };
-		B98EC2E516849DE0001CDD3E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B98EC2E316849DE0001CDD3E /* MainStoryboard.storyboard */; };
-		B98EC2E816849DE0001CDD3E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B98EC2E716849DE0001CDD3E /* ViewController.m */; };
+		B98EC30B16849EBB001CDD3E /* 122-stats.png in Resources */ = {isa = PBXBuildFile; fileRef = B98EC30816849EBB001CDD3E /* 122-stats.png */; };
+		B98EC30C16849EBB001CDD3E /* 11-clock.png in Resources */ = {isa = PBXBuildFile; fileRef = B98EC30916849EBB001CDD3E /* 11-clock.png */; };
+		B98EC30D16849EBB001CDD3E /* 10-medical.png in Resources */ = {isa = PBXBuildFile; fileRef = B98EC30A16849EBB001CDD3E /* 10-medical.png */; };
+		B98EC30F16849EE0001CDD3E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B98EC30E16849EE0001CDD3E /* QuartzCore.framework */; };
+		B98EC31016849F1A001CDD3E /* CPDConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = B98EC2F716849E88001CDD3E /* CPDConstants.m */; };
+		B98EC31116849F1A001CDD3E /* WeightEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = B98EC2F916849E94001CDD3E /* WeightEntry.m */; };
+		B98EC31216849F1A001CDD3E /* DataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = B98EC2FB16849E94001CDD3E /* DataStore.m */; };
+		B98EC31316849F1A001CDD3E /* WeightHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B98EC2FD16849EA8001CDD3E /* WeightHistoryViewController.m */; };
+		B98EC31416849F1A001CDD3E /* EnterWeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B98EC2FF16849EA8001CDD3E /* EnterWeightViewController.m */; };
+		B98EC31516849F1A001CDD3E /* UnitSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B98EC30116849EA8001CDD3E /* UnitSelectorViewController.m */; };
+		B98EC31616849F1A001CDD3E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B98EC30316849EA8001CDD3E /* DetailViewController.m */; };
+		B98EC31716849F1A001CDD3E /* HistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B98EC30516849EA8001CDD3E /* HistoryCell.m */; };
+		B98EC31816849F1A001CDD3E /* ChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B98EC30716849EA8001CDD3E /* ChartViewController.m */; };
+		B98EC31A16849FA7001CDD3E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B98EC31916849FA7001CDD3E /* MainStoryboard_iPhone.storyboard */; };
+		B98EC31C1684A101001CDD3E /* CorePlotHeaders in Resources */ = {isa = PBXBuildFile; fileRef = B98EC31B1684A101001CDD3E /* CorePlotHeaders */; };
+		B98EC3201684A337001CDD3E /* libCorePlot-CocoaTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B98EC31D1684A108001CDD3E /* libCorePlot-CocoaTouch.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,9 +48,31 @@
 		B98EC2DD16849DE0001CDD3E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		B98EC2DF16849DE0001CDD3E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		B98EC2E116849DE0001CDD3E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		B98EC2E416849DE0001CDD3E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		B98EC2E616849DE0001CDD3E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B98EC2E716849DE0001CDD3E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B98EC2F616849E88001CDD3E /* CPDConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPDConstants.h; sourceTree = "<group>"; };
+		B98EC2F716849E88001CDD3E /* CPDConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPDConstants.m; sourceTree = "<group>"; };
+		B98EC2F816849E94001CDD3E /* WeightEntry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeightEntry.h; sourceTree = "<group>"; };
+		B98EC2F916849E94001CDD3E /* WeightEntry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeightEntry.m; sourceTree = "<group>"; };
+		B98EC2FA16849E94001CDD3E /* DataStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataStore.h; sourceTree = "<group>"; };
+		B98EC2FB16849E94001CDD3E /* DataStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataStore.m; sourceTree = "<group>"; };
+		B98EC2FC16849EA8001CDD3E /* WeightHistoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeightHistoryViewController.h; sourceTree = "<group>"; };
+		B98EC2FD16849EA8001CDD3E /* WeightHistoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeightHistoryViewController.m; sourceTree = "<group>"; };
+		B98EC2FE16849EA8001CDD3E /* EnterWeightViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnterWeightViewController.h; sourceTree = "<group>"; };
+		B98EC2FF16849EA8001CDD3E /* EnterWeightViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnterWeightViewController.m; sourceTree = "<group>"; };
+		B98EC30016849EA8001CDD3E /* UnitSelectorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnitSelectorViewController.h; sourceTree = "<group>"; };
+		B98EC30116849EA8001CDD3E /* UnitSelectorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnitSelectorViewController.m; sourceTree = "<group>"; };
+		B98EC30216849EA8001CDD3E /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		B98EC30316849EA8001CDD3E /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		B98EC30416849EA8001CDD3E /* HistoryCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryCell.h; sourceTree = "<group>"; };
+		B98EC30516849EA8001CDD3E /* HistoryCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryCell.m; sourceTree = "<group>"; };
+		B98EC30616849EA8001CDD3E /* ChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChartViewController.h; sourceTree = "<group>"; };
+		B98EC30716849EA8001CDD3E /* ChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChartViewController.m; sourceTree = "<group>"; };
+		B98EC30816849EBB001CDD3E /* 122-stats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "122-stats.png"; sourceTree = "<group>"; };
+		B98EC30916849EBB001CDD3E /* 11-clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "11-clock.png"; sourceTree = "<group>"; };
+		B98EC30A16849EBB001CDD3E /* 10-medical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "10-medical.png"; sourceTree = "<group>"; };
+		B98EC30E16849EE0001CDD3E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B98EC31916849FA7001CDD3E /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B98EC31B1684A101001CDD3E /* CorePlotHeaders */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CorePlotHeaders; sourceTree = "<group>"; };
+		B98EC31D1684A108001CDD3E /* libCorePlot-CocoaTouch.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libCorePlot-CocoaTouch.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +80,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B98EC3201684A337001CDD3E /* libCorePlot-CocoaTouch.a in Frameworks */,
+				B98EC30F16849EE0001CDD3E /* QuartzCore.framework in Frameworks */,
 				B98EC2CC16849DE0001CDD3E /* UIKit.framework in Frameworks */,
 				B98EC2CE16849DE0001CDD3E /* Foundation.framework in Frameworks */,
 				B98EC2D016849DE0001CDD3E /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +94,9 @@
 		B98EC2BC16849DE0001CDD3E = {
 			isa = PBXGroup;
 			children = (
+				B98EC2EE16849DF1001CDD3E /* CorePlot */,
+				B98EC2EF16849DFC001CDD3E /* Constants */,
+				B98EC2F016849E04001CDD3E /* Model */,
 				B98EC2D116849DE0001CDD3E /* Weight_Monitor */,
 				B98EC2CA16849DE0001CDD3E /* Frameworks */,
 				B98EC2C816849DE0001CDD3E /* Products */,
@@ -73,6 +114,7 @@
 		B98EC2CA16849DE0001CDD3E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B98EC30E16849EE0001CDD3E /* QuartzCore.framework */,
 				B98EC2CB16849DE0001CDD3E /* UIKit.framework */,
 				B98EC2CD16849DE0001CDD3E /* Foundation.framework */,
 				B98EC2CF16849DE0001CDD3E /* CoreGraphics.framework */,
@@ -85,9 +127,19 @@
 			children = (
 				B98EC2DA16849DE0001CDD3E /* AppDelegate.h */,
 				B98EC2DB16849DE0001CDD3E /* AppDelegate.m */,
-				B98EC2E316849DE0001CDD3E /* MainStoryboard.storyboard */,
-				B98EC2E616849DE0001CDD3E /* ViewController.h */,
-				B98EC2E716849DE0001CDD3E /* ViewController.m */,
+				B98EC31916849FA7001CDD3E /* MainStoryboard_iPhone.storyboard */,
+				B98EC2FC16849EA8001CDD3E /* WeightHistoryViewController.h */,
+				B98EC2FD16849EA8001CDD3E /* WeightHistoryViewController.m */,
+				B98EC2FE16849EA8001CDD3E /* EnterWeightViewController.h */,
+				B98EC2FF16849EA8001CDD3E /* EnterWeightViewController.m */,
+				B98EC30016849EA8001CDD3E /* UnitSelectorViewController.h */,
+				B98EC30116849EA8001CDD3E /* UnitSelectorViewController.m */,
+				B98EC30216849EA8001CDD3E /* DetailViewController.h */,
+				B98EC30316849EA8001CDD3E /* DetailViewController.m */,
+				B98EC30416849EA8001CDD3E /* HistoryCell.h */,
+				B98EC30516849EA8001CDD3E /* HistoryCell.m */,
+				B98EC30616849EA8001CDD3E /* ChartViewController.h */,
+				B98EC30716849EA8001CDD3E /* ChartViewController.m */,
 				B98EC2D216849DE0001CDD3E /* Supporting Files */,
 			);
 			path = Weight_Monitor;
@@ -96,6 +148,9 @@
 		B98EC2D216849DE0001CDD3E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B98EC30816849EBB001CDD3E /* 122-stats.png */,
+				B98EC30916849EBB001CDD3E /* 11-clock.png */,
+				B98EC30A16849EBB001CDD3E /* 10-medical.png */,
 				B98EC2D316849DE0001CDD3E /* Weight_Monitor-Info.plist */,
 				B98EC2D416849DE0001CDD3E /* InfoPlist.strings */,
 				B98EC2D716849DE0001CDD3E /* main.m */,
@@ -105,6 +160,35 @@
 				B98EC2E116849DE0001CDD3E /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B98EC2EE16849DF1001CDD3E /* CorePlot */ = {
+			isa = PBXGroup;
+			children = (
+				B98EC31D1684A108001CDD3E /* libCorePlot-CocoaTouch.a */,
+				B98EC31B1684A101001CDD3E /* CorePlotHeaders */,
+			);
+			name = CorePlot;
+			sourceTree = "<group>";
+		};
+		B98EC2EF16849DFC001CDD3E /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				B98EC2F616849E88001CDD3E /* CPDConstants.h */,
+				B98EC2F716849E88001CDD3E /* CPDConstants.m */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		B98EC2F016849E04001CDD3E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B98EC2F816849E94001CDD3E /* WeightEntry.h */,
+				B98EC2F916849E94001CDD3E /* WeightEntry.m */,
+				B98EC2FA16849E94001CDD3E /* DataStore.h */,
+				B98EC2FB16849E94001CDD3E /* DataStore.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,7 +246,11 @@
 				B98EC2DE16849DE0001CDD3E /* Default.png in Resources */,
 				B98EC2E016849DE0001CDD3E /* Default@2x.png in Resources */,
 				B98EC2E216849DE0001CDD3E /* Default-568h@2x.png in Resources */,
-				B98EC2E516849DE0001CDD3E /* MainStoryboard.storyboard in Resources */,
+				B98EC30B16849EBB001CDD3E /* 122-stats.png in Resources */,
+				B98EC30C16849EBB001CDD3E /* 11-clock.png in Resources */,
+				B98EC30D16849EBB001CDD3E /* 10-medical.png in Resources */,
+				B98EC31A16849FA7001CDD3E /* MainStoryboard_iPhone.storyboard in Resources */,
+				B98EC31C1684A101001CDD3E /* CorePlotHeaders in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,9 +261,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B98EC31016849F1A001CDD3E /* CPDConstants.m in Sources */,
+				B98EC31116849F1A001CDD3E /* WeightEntry.m in Sources */,
+				B98EC31216849F1A001CDD3E /* DataStore.m in Sources */,
+				B98EC31316849F1A001CDD3E /* WeightHistoryViewController.m in Sources */,
+				B98EC31416849F1A001CDD3E /* EnterWeightViewController.m in Sources */,
+				B98EC31516849F1A001CDD3E /* UnitSelectorViewController.m in Sources */,
+				B98EC31616849F1A001CDD3E /* DetailViewController.m in Sources */,
+				B98EC31716849F1A001CDD3E /* HistoryCell.m in Sources */,
+				B98EC31816849F1A001CDD3E /* ChartViewController.m in Sources */,
 				B98EC2D816849DE0001CDD3E /* main.m in Sources */,
 				B98EC2DC16849DE0001CDD3E /* AppDelegate.m in Sources */,
-				B98EC2E816849DE0001CDD3E /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,14 +284,6 @@
 				B98EC2D516849DE0001CDD3E /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		B98EC2E316849DE0001CDD3E /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B98EC2E416849DE0001CDD3E /* en */,
-			);
-			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -220,11 +308,15 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/framework/**\"";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -240,12 +332,16 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/framework/**\"";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -255,8 +351,16 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Weight_Monitor/Weight_Monitor-Prefix.pch";
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/framework/**\"";
 				INFOPLIST_FILE = "Weight_Monitor/Weight_Monitor-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -266,8 +370,16 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Weight_Monitor/Weight_Monitor-Prefix.pch";
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/framework/**\"";
 				INFOPLIST_FILE = "Weight_Monitor/Weight_Monitor-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
