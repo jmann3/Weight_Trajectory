@@ -32,6 +32,7 @@
 		B98EC31A16849FA7001CDD3E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B98EC31916849FA7001CDD3E /* MainStoryboard_iPhone.storyboard */; };
 		B98EC31C1684A101001CDD3E /* CorePlotHeaders in Resources */ = {isa = PBXBuildFile; fileRef = B98EC31B1684A101001CDD3E /* CorePlotHeaders */; };
 		B98EC3201684A337001CDD3E /* libCorePlot-CocoaTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B98EC31D1684A108001CDD3E /* libCorePlot-CocoaTouch.a */; };
+		B98EC3261684A7AA001CDD3E /* framework in Resources */ = {isa = PBXBuildFile; fileRef = B98EC3251684A7AA001CDD3E /* framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		B98EC31916849FA7001CDD3E /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		B98EC31B1684A101001CDD3E /* CorePlotHeaders */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CorePlotHeaders; sourceTree = "<group>"; };
 		B98EC31D1684A108001CDD3E /* libCorePlot-CocoaTouch.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libCorePlot-CocoaTouch.a"; sourceTree = "<group>"; };
+		B98EC3251684A7AA001CDD3E /* framework */ = {isa = PBXFileReference; lastKnownFileType = folder; path = framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				B98EC31D1684A108001CDD3E /* libCorePlot-CocoaTouch.a */,
+				B98EC3251684A7AA001CDD3E /* framework */,
 				B98EC31B1684A101001CDD3E /* CorePlotHeaders */,
 			);
 			name = CorePlot;
@@ -251,6 +254,7 @@
 				B98EC30D16849EBB001CDD3E /* 10-medical.png in Resources */,
 				B98EC31A16849FA7001CDD3E /* MainStoryboard_iPhone.storyboard in Resources */,
 				B98EC31C1684A101001CDD3E /* CorePlotHeaders in Resources */,
+				B98EC3261684A7AA001CDD3E /* framework in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
